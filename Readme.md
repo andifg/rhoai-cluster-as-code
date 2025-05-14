@@ -13,3 +13,4 @@ kustomize build argocd-installation/overlays/<cluster-type> | oc apply -f -
 
 ```bash
 kustomize build bootstrap/overlays/<cluster-type>/  | oc apply -f -
+```
